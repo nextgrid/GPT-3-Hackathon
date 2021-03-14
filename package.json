@@ -1,0 +1,43 @@
+{
+    "name": "deep-learning-labs-gpt3-node-bolilerplate",
+    "version": "0.0.1",
+    "description": "System to fetch & refine data with AI",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "cheerio": "node cheerio.js",
+        "gpt3": "node gpt3.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nextgrid/astrid.git"
+    },
+    "keywords": [
+        "ai",
+        "gpt3",
+        "nextgrid"
+    ],
+    "author": "Mathias and Richard",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nextgrid/astrid/issues"
+    },
+    "homepage": "https://github.com/nextgrid/astrid#readme",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.5",
+        "node-fetch": "^2.6.1",
+        "openai-api": "^1.0.17",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.22.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-config-standard": "^16.0.2",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-promise": "^4.3.1",
+        "prettier": "^2.2.1"
+    }
+}
